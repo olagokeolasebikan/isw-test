@@ -1,10 +1,11 @@
 version: '2'
 
 services:
-  
-  
-  
-  
+  haproxy:
+    build: ./haproxy/.
+    ports:
+      - '8080:8080'
+      
   webserver1:
     build: webserver1/.
     ports:
