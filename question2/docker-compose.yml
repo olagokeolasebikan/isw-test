@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  
+  
+  
+  
+  webserver1:
+    build: webserver1/.
+    ports:
+      - '3001:80'
+
+  webserver2:
+    build: webserver2/.
+    ports:
+      - '3002:80'
