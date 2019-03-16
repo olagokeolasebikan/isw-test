@@ -4,9 +4,6 @@ QUESTIONS
 ==================
 
 
-
-
-
 Task 1
 ------------------
 Write an ansible script to install kafka cluster comprises of 3 nodes, write a script create a topic and subscribe to a topic.
@@ -18,7 +15,6 @@ Description
 programming language
 Acceptance criteria:
 You can use go or python to achieve this. Any library is allowed in achieving this task
-
 
 
 Task 2
